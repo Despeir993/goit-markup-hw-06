@@ -737,3 +737,161 @@ img {
 
   color: var(--spec-color);
 }
+/* Подписаться*/
+.contact-right-side {
+  min-width: 570px;
+  min-height: 86px;
+  margin-left: 94px;
+}
+.button-form {
+  width: 200px;
+  height: 50px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.input {
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.submit-text {
+  display: block;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--spec-color);
+  margin-right: 10px;
+}
+.button-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Форма модалки*/
+
+.modal-form-contacts,
+.modal-form-item,
+.modal-form-coments,
+.modal-form-title {
+  display: block;
+  text-align: start;
+}
+
+.modal-form-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  margin: 2px 40px 12px 40px;
+}
+.form-modal-input,
+.form-modal-input-coments {
+  width: 100%;
+  display: block;
+  height: 40px;
+  margin-bottom: 28px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.modal-form-contacts,
+.modal-form-coments {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.form-modal-input-coments {
+  width: 100%;
+  display: block;
+  height: 120px;
+  margin-bottom: 28px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  outline: none;
+}
+.modal-form-contacts {
+  position: relative;
+}
+.form-icon {
+  position: absolute;
+  right: 440px;
+  bottom: 10px;
+  width: 18px;
+}
+.modal-form-btn {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.text-modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--spec-color);
+}
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+  background-color: var(--btn-hover);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-modal-input {
+  padding-left: 42px;
+  outline: transparent;
+}
+.form-icon:hover {
+  fill: var(--accent-color);
+}
+.modal-form-group:hover,
+.modal-form-group:focus {
+  background-color: var(--spec-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  outline-color: var(--btn-hover);
+  fill: var(--accent-color);
+  border-color: var(--btn-hover);
+}
+.form-modal-input:focus-visible {
+  border-color: var(--btn-hover);
+}
+.modal-form-group {
+  outline: 1px solid transparent;
+}
+.modal-form-group:active {
+  fill: var(--accent-color);
+  border-color: var(--btn-hover);
+}

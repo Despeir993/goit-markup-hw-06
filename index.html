@@ -63,6 +63,46 @@
                 <use href="images/svg/sprite.svg#icon-close-black"></use>
               </svg>
             </button>
+            <strong class="modal-form-title">Оставьте свои данные, мы вам перезвоним</strong>
+            <form class="modal-form">
+              <label class="modal-form-contacts">
+                <span class="modal-form-item">Имя</span/>
+                <div class="modal-form-group"><input class="form-modal-input" type="text" name="user-name" />
+                <svg class="form-icon" whidth="18" height="18">
+                  <use href="./images/svg/sprite.svg#icon-person-black"></use>
+                </svg></div>
+              </label>
+              <label class="modal-form-contacts"
+                ><span class="modal-form-item">Телефон</span><div class="modal-form-group"><input class="form-modal-input" type="phone" name="user-phone"
+              /><svg class="form-icon" whidth="18" height="18">
+                  <use href="./images/svg/sprite.svg#icon-phone-black"></use>
+                </svg></div></label>
+              <label class="modal-form-contacts"
+                ><span class="modal-form-item">Почта</span
+                ><div class="modal-form-group"><input class="form-modal-input" type="email" name="user-email"
+              /><svg class="form-icon" whidth="18" height="18">
+                  <use href="./images/svg/sprite.svg#icon-email-black"></use>
+                </svg></div></label>
+              <label class="modal-form-coments">
+                <span class="modal-form-item">Коментарий</span>
+                <textarea
+                  class="form-modal-input-coments"
+                  name="user-text"
+                  id="user-text"
+                  placeholder=" Введите текст"
+                ></textarea>
+              </label>
+              <label class="modal-form-contacts">
+                <input class="modal-form-chekbox" type="checkbox" name="" id="" />
+                <span>Соглашаюсь с рассылкой и принимаю Условия договора</span>
+              </label>
+              <label class="modal-form-contacts">
+                
+               <button class="modal-form-btn" type="submit"><span class="text-modal-btn">Отправить</span></button>
+                
+                
+              </label>
+            </form>
           </div>
         </div>
       </section>
@@ -402,6 +442,22 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="contact-right-side">
+          <p class="contact-title">Подпишитесь на рассылку</p>
+          <form class="form-right-side" name="form-right-side" autocomplete="off">
+            <label class="form-group">
+              <div class="input-group">
+                <input class="input" type="email" placeholder="E-mail" />
+                <button class="button-form" type="submit">
+                  <span class="submit-text">Подписатся </span>
+                  <svg class="send-item" width="24" height="24">
+                    <use href="./images/svg/sprite.svg#icon-send"></use>
+                  </svg>
+                </button>
+              </div>
+            </label>
+          </form>
         </div>
       </div>
     </footer>
